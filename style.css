@@ -670,6 +670,25 @@ footer {
 
     .hero {
         padding-top: 60px;
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+
+    .hero-content {
+        margin-bottom: 3rem;
+    }
+
+    .hero-image {
+        margin-top: 0;
+        order: -1;
+    }
+
+    .hero-image-box {
+        width: 280px;
+        height: 280px;
+        font-size: 80px;
     }
 
     .section {
@@ -678,6 +697,7 @@ footer {
 
     .btn-group-hero {
         gap: 0.8rem;
+        justify-content: center;
     }
 
     .btn-primary-custom,
